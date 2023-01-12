@@ -6,6 +6,8 @@ public class Main {
         task4();
         task5();
         task6();
+        task7();
+        task8();
     }
 
         public static void task1 () {
@@ -21,10 +23,10 @@ public class Main {
         var cat = 3.6;
         var paper = 763789;
         System.out.println("Задача 2");
-            cat = cat + 4;
-            dog = dog + 4;
-            paper = paper + 4;
-            System.out.println(dog + " " + cat + " " + paper);
+        cat = cat + 4;
+        dog = dog + 4;
+        paper = paper + 4;
+        System.out.println(dog + " " + cat + " " + paper);
         }
 
         public static void task3 () {
@@ -58,5 +60,27 @@ public class Main {
         System.out.println(frog);
         }
 
-        public static void task6 () {}
+        public static void task6 () {
+        var weightFighter1 = 78.2;
+        var weightFighter2 = 82.7;
+        var weightSummary = weightFighter2 + weightFighter2;
+        var weightSub = weightFighter2 - weightFighter1;
+        System.out.println("Задача 6" + "\n" + weightSummary + "\n" + weightSub);
+        }
+
+        public static void task7 () {
+        var weightFighter1 = 78.2;
+        var weightFighter2 = 82.7;
+        var weightSubstraction = weightFighter2 - weightFighter1;
+        var weightSub = weightFighter2 % weightFighter1;
+        System.out.println("Задача 7" + "\n" + weightSub + "\n" + weightSubstraction);
+        }
+
+        public static void task8 () {
+        var emplNum = 640 / 8;
+        var emplNum2 = emplNum + 94;
+        var hoursNum = emplNum2 * 8;
+        System.out.println("Задача 8" + "\n" + "Всего работников в компании - " + emplNum + " человек");
+        System.out.println("Если в компании работает " + emplNum2 + " человек, то всего " + hoursNum + " часов работы может быть поделено между сотрудниками");
+        }
 }
